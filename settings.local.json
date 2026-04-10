@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where node:*)",
+      "Bash(where npx:*)",
+      "Bash(where npm:*)",
+      "Bash(where node.exe)",
+      "Bash(where python.exe)",
+      "Bash(where py.exe)",
+      "Read(//c/Users/Fredrik N/Claude Code Enkelt spel/$APPDATA/**)",
+      "Bash('PATH=$PATH:/c/Program Files/nodejs' where node.exe)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(where gh:*)",
+      "Bash(gh auth:*)",
+      "Bash(where gh.exe)",
+      "Read(//c/Program Files/GitHub CLI//**)",
+      "Read(//c/Users/Fredrik N/Claude Code Enkelt spel/$LOCALAPPDATA/Programs/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(gh.exe auth:*)",
+      "Bash(cmd.exe //c \"where gh\")",
+      "Read(//c/Users/Fredrik N/Claude Code Enkelt spel/$LOCALAPPDATA/GitHub CLI/**)",
+      "Read(//c/Users/Fredrik N/AppData/Local/Programs/GitHub CLI/**)",
+      "Read(//c/ProgramData/chocolatey/bin/**)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" api repos/fredrik-per-nyberg/Fredriks-GIT/pages -X POST -f build_type=workflow -f source.branch=main -f source.path=\"/\")",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" api repos/fredrik-per-nyberg/Fredriks-GIT/pages -q '.html_url')"
+    ]
+  }
+}
